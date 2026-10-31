@@ -1,0 +1,7 @@
+id,text
+REQ-DOOR-001,Doors shall not open while vehicle speed is greater than 5.0 km/h.
+REQ-DOOR-002,If an obstacle is detected while the doors are closing they shall reopen.
+REQ-DOOR-003,Three consecutive frames with an invalid CRC shall put the controller in FAULT.
+REQ-DOOR-004,If no valid speed frame is received for more than 500 ms the controller shall enter FAULT.
+REQ-DOOR-005,Unknown command values shall be rejected without a state change.
+REQ-DOOR-006,Door state transitions shall follow the specified state machine.
